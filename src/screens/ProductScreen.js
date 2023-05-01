@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
 		justifyContent: 'center',
 	},
 	ImageSize: { width: '100%', aspectRatio: 1 },
-	ImageContainer: { width: '50%', padding: 10 },
+	ImageContainer: { width: '50%', padding: 1 },
 	ImageName: { textAlign: 'center', padding: 5, fontWeight: '500', fontSize: 15 },
 });
 
