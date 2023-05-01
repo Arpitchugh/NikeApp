@@ -15,8 +15,7 @@ const ProductDetails = () => {
 	const { width } = useWindowDimensions();
 	const addToCart = () => {
 		console.warn('Added to cart');
-		
-	}
+	};
 	return (
 		<View style={styles.container}>
 			{/* Image Carousel */}
@@ -56,7 +55,6 @@ const styles = StyleSheet.create({
 	title: {
 		fontSize: 34,
 		fontWeight: 'bold',
-		marginVertical: 5,
 		letterSpacing: 2,
 	},
 	price: { fontSize: 16, fontWeight: '500', letterSpacing: 1.5 },
